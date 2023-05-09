@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'slava-shop-front';
+  public title:string;
+  public name:string;
+
+  constructor(){
+    this.title = 'Pagina principal';
+    this.name = 'Rodolfo';
+  }
+
 }
